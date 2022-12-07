@@ -25,8 +25,8 @@ const hariini = moment.tz('Asia/Jakarta').format('dddd, DD MMMM YYYY')
 const barat = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const tengah = moment.tz('Asia/Makassar').format('HH:mm:ss')
 const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-const nyoutube = ('®  IchanZX-ID')  //ubah di config biar ngk emror
-const ini_mark = `6282334018401@s.whatsapp.net`
+const nyoutube = ('®  Farissu')  //ubah di config biar ngk emror
+const ini_mark = `6288298476340@s.whatsapp.net`
 const ownernya = global.owner + '@s.whatsapp.net'
 
 //TIME
@@ -83,15 +83,15 @@ module.exports = zens = async (zens, m, chatUpdate, store) => {
      
 	 
 	    //Fake
-	    const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "status@broadcast"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: thumb, surface: 200, message: '®IchanZX ID', orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-		const fdoc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {documentMessage: {title: '®IchanZX ID',jpegThumbnail: thumb}}}
+	    const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "status@broadcast"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: thumb, surface: 200, message: '®Farissu', orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+		const fdoc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {documentMessage: {title: '®Farissu',jpegThumbnail: thumb}}}
 		const fvn = {key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds":359996400,"ptt": "true"}} } 
-		const fgif = {key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: {"videoMessage": { "title":'®IchanZX ID', "h": `Hmm`,'seconds': '359996400', 'gifPlayback': 'true', 'caption': '®IchanZX ID', 'jpegThumbnail': thumb}}}
-		const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": "ig : @xaveey.xv", "caption": '®IchanZX ID', 'jpegThumbnail': thumb}}}
+		const fgif = {key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: {"videoMessage": { "title":'®Farissu', "h": `Hmm`,'seconds': '359996400', 'gifPlayback': 'true', 'caption': '®Farissu', 'jpegThumbnail': thumb}}}
+		const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": "ig : @xaveey.xv", "caption": '®Farissu', 'jpegThumbnail': thumb}}}
 		const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {}) },message: { "videoMessage": { "title":`${pushname}`, "h": `Hmm`,'seconds': '359996400', 'caption': `${pushname}`, 'jpegThumbnail': thumb}}}
 		const floc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: 'zens cuy',jpegThumbnail: thumb}}}
-		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': 'IchanZX ID', 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;Zenss,;;;\nFN:ZenssCuyy\nitem1.TEL;waid=6282139533381:6282139533381\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
-	    const fakestatus = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: { "imageMessage": {"url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc","mimetype": "image/jpeg","caption": '®IchanZX ID',"fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=","fileLength": "28777","height": 1080,"width": 1079,"mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=","fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=","directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69","mediaKeyTimestamp": "1610993486","jpegThumbnail": fs.readFileSync('./image/zens.jpg'),"scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="}}}
+		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': 'Farissu', 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;Zenss,;;;\nFN:ZenssCuyy\nitem1.TEL;waid=6282139533381:6282139533381\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
+	    const fakestatus = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: { "imageMessage": {"url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc","mimetype": "image/jpeg","caption": '®Farissu',"fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=","fileLength": "28777","height": 1080,"width": 1079,"mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=","fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=","directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69","mediaKeyTimestamp": "1610993486","jpegThumbnail": fs.readFileSync('./image/zens.jpg'),"scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="}}}
 		
         // Group
         const groupMetadata = m.isGroup ? await zens.groupMetadata(m.chat).catch(e => {}) : ''
@@ -602,7 +602,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
 	    case 'All Free': case 'donate': {
-                zens.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/bfcd6d02ddc9e1861226e.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berAll Free silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/\n\n*Atau Transfer via*\n- *Gopay Dana Ovo Qris ShopeePay*\n chat nomor berikut : wa.me/6282334018401\n\n_Terima kasih_` }, { quoted: m })
+                zens.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/bfcd6d02ddc9e1861226e.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berAll Free silahkan dukung Farissu` }, { quoted: m })
             }
             break 
             case 'addprem':
@@ -624,15 +624,15 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
 					}
 				break
             case 'buysc': {
-                zens.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/bfcd6d02ddc9e1861226e.jpg' }, caption: `╭──❏「 𝐒𝐂𝐑𝐈𝐏𝐓 𝐁𝐎𝐓 」❏*\n├ > *No enc*\n├ > *Bisa Di Recode Kembali*\n├ > *Set Owner Sesuka Kamu*\n├ > *Reaupload?* Izin Dulu!!\n╰──❏\n\n╭───────────────────✎\n│ 🇮🇩 𝘽𝙤𝙩 𝘿𝙚𝙥𝙡𝙤𝙮𝙚𝙙 𝙗𝙮 : 𝙄𝙘𝙝𝙖𝙣𝙯𝙓𝘿\n│ YouTube  : Ichan Gaming\n│ Tiktok     : @ichanxd\n│ Telegram  : @Ichanxd\n╰─────────❍ ••••\n\n╔╣ *SCRIPT BOT ICHANZX ID*\n║ • Harga? Murah Meriah\n║ • Rp 40.000\n║ • Rp 50.000 + Jasa Jadi Bot\n║ • Murah Kan? Langsung Chat Owner\n╚══╣ *BAYAR MELALUI QRIS DIATAS*\n\n- Pembayaran via QRIS *(Dana,Ovo,Gopay,LinkAja, shopeePay)*\n*( tidak ada opsi lain )*\n\nnKonfirmasi Pembayaran chat nomor berikut : wa.me/6282334018401` }, { quoted: m })
+                zens.sendMessage(m.chat, { image: { url: 'https://imgur.com/D1xvzQX' }, caption: `𝘽𝙤𝙩 𝘿𝙚𝙥𝙡𝙤𝙮𝙚𝙙 𝙗𝙮 : Farissu\n` }, { quoted: m })
                 }
   break
             case 'jadibot': case 'sc': case 'sewabot': case 'sewa': case 'buypremium': case 'premium': {
-                zens.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/bfcd6d02ddc9e1861226e.jpg' }, caption: `╭──❏「 𝐋𝐢𝐬𝐭 𝐇𝐚𝐫𝐠𝐚 𝐊𝐚𝐰𝐚𝐧 」❏*\n├ > *Jasa Run Bot/Jadi Bot*\n├ > *Layanan Premium Users*\n├ > *Premium Users*\n├ > *Beli SC?* Ketik buysc\n╰──❏\n\n╔╣ MAU JADI BOT? 🤖\n║ • Run 24Jam\n║ • Fast Respon\n║ • All Fitur & Game\n║ • Full Akses Owner & Bot\n╚══╣ *Harga :* Rp.85.000 / bulan + Sewa Server Bot\n\n╔╣ PREMIUM USER 💎\n║ • Infinity Limit\n║ • Full Akses Private Chat\n╚══╣ *Harga :* Rp.10.000 / bulan\n\n╔╣ SEWA BOT 👑\n║ • Dapat Premium\n║ • Bebas Invit ke 1 Grup\n╚══╣ *Harga :* Rp.15.000 / bulan\n\n- Pembayaran via QRIS *(Dana,Ovo,Gopay,LinkAja, shopeePay)*\n*( tidak ada opsi lain )*\n\nKonfirmasi Pembayaran chat nomor berikut : wa.me/6282334018401` }, { quoted: m })
+                zens.sendMessage(m.chat, { image: { url: 'https://imgur.com/D1xvzQX' }, caption: `Only Farissu Prem` }, { quoted: m })
                 }
   break
 case 'menfess': {
-                zens.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/bfcd6d02ddc9e1861226e.jpg' }, caption: `*INFORMASI MENFESS FITUR*\n\nFitur Menfess Sekarang Hanya Khusus Member Yang Membeli Premium,\n\n*Kenapa Premium?*\n\nKarena Sekarang WhatsApp Mendeteksi Jika Mengirimkan Pesan Ke No wa yg belum kita save maka akan terkena blokir pada no wa bot\n\nKetik .premium Jika Ingin Membeli Premium\n\n*SEKIAN PEMBERITAHUAN INI*\n© _IchanZX Coder ID_` }, { quoted: m })
+                zens.sendMessage(m.chat, { image: { url: 'https://imgur.com/D1xvzQX' }, caption: `*INFORMASI MENFESS FITUR*\n\nFitur Menfess Sekarang Hanya Khusus Farissu,` }, { quoted: m })
                 }
   break
             case 'chat': {
@@ -2925,16 +2925,16 @@ let capt = `⌗ Title: ${judul}
             break
 
 //PEMBATAS=======================================
-            case 'rules': {
-               goblok = fs.readFileSync('./sound/rules.mp3')
-zens.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quoted:m})}
+            case 'rules': {}
 {
 rules = `┌──⭓ *Rules BOT*
 │
-│ *No Spam & Telp❗*
+│ *No Spam *
+│ *Farisu selalu benar *
+│ *Farissu tidak pernah salah *
 │
 └───────𖦹Ꜥꜥ`
-let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '»Semua Menu«' }, type: 1 },{ buttonId: 'All Free', buttonText: { displayText: '👑Sewa' }, type: 1 }]
+let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '»Semua Menu«' }, type: 1 },{ buttonId: 'All Free', buttonText: { displayText: 'Farissu' }, type: 1 }]
             await zens.sendButtonText(m.chat, buttons, rules, nyoutube, m, {quoted: fkontak})
             }
             break
@@ -2972,14 +2972,12 @@ zens.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quo
 ╭─────✎「 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 」•••
 ├ ❏ *Nama* : ${pushname}
 ├ ❏ *Number* : @${me.split('@')[0]}
-├ ❏ *Premium* : ${isPremium ? '✅' : `❌`}
-├ ❏ *Limit* : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
+
 ╰──────────────❏
 
 ╭─────✎「 𝐈𝐍𝐅𝐎 𝐂𝐑𝐄𝐀𝐓𝐎𝐑 」••
-├ ❏ *Nama Bot* : 𝙕𝙓𝙘𝙤𝙙𝙚𝙧𝙄𝘿
-├ ❏ *Powered* : @${ini_mark.split('@')[0]}
-├ ❏ *Owner* : @${ownernya.split('@')[0]}
+├ ❏ *Nama Bot* : Farissu
+├ ❏ *Owner* : Farissu
 ├ ❏ *Mode* : ${zens.public ? 'Public' : `Self`}
 ├ ❏ *Prefix* :「 MULTI-PREFIX 」
 ╰─────────────────❏
@@ -2991,7 +2989,7 @@ zens.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quo
 ├  ❏ *Platform* : Linux
 ├  ❏ *Type* : Node.Js
 ├  ❏ *UpTime* : ${runtime(process.uptime())}
-├  ❏ *ScriptBy* : IchanZX CoderID 🇮🇩
+├  ❏ *ScriptBy* : Farissu
 ╰────────────────❏
 
 ╭───✎「 𝐈𝐍𝐃𝐎𝐍𝐄𝐒𝐈𝐀 𝐓𝐈𝐌𝐄 」•••
@@ -3001,7 +2999,7 @@ zens.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quo
 ├ ❏ *Wit* : ${timur} WIT
 ╰───────────❏`
             let ments = [ownernya, me, ini_mark]
-            let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '»Semua Menu«' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '»Peraturan«' }, type: 1 },{ buttonId: 'buysc', buttonText: { displayText: '»Script Bot«' }, type: 1 },{ buttonId: 'All Free', buttonText: { displayText: '»All Free«' }, type: 1 }]
+            let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '»Semua Menu«' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '»Peraturan«' }, type: 1 },{ buttonId: 'All Free', buttonText: { displayText: '»All Free«' }, type: 1 }]
             await zens.sendButtonText(m.chat, buttons, jawab, nyoutube, m, {mentions: ments, quoted: fkontak})
             } 
 break
@@ -3758,7 +3756,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}setmenu [option]
 │
 └───────𖦹Ꜥꜥ
-_Support kami_\n_Dengan Cara BerAll Free_`
+Farissu Bot`
                 let buttons = [{ buttonId: 'All Free', buttonText: { displayText: '⌕ All Free' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '⌕ Rules' }, type: 1 }]
             await zens.sendButtonText(m.chat, buttons, anu, nyoutube, m, {mentions: ments, quoted: fkontak})
             }
